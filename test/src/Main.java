@@ -63,7 +63,7 @@ public class Main {
             }
             else
             throw new FormatException("Формат математической операции не удовлетворяет заданию - два операнда и один оператор (+, -, /, *)");
-            if (10<a || a<0||10<b || b<0) {
+            if (10<a || a<1||10<b || b<1) {
             throw new NumbersException("Введенные числа не подходят для выполнения программы.");
         }
         switch (charArray[flag]) {
